@@ -13,12 +13,10 @@ def div(a, b):
         b / a
     except:
         raise ZeroDivisionError
-# raise ZeroDivisionError if a == 0
 
 def log(a, b):
     try:
         math.log(a,b)
-    # use math library + raise ValueError
     except:
         raise ValueError
 def exp(a, b):
