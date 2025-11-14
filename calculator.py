@@ -12,7 +12,7 @@ def div(a, b):
     try:
         b / a
     except:
-        raise "ZeroDivisionError"
+        raise ZeroDivisionError
 # raise ZeroDivisionError if a == 0
 
 def log(a, b):
